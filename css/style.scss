@@ -41,6 +41,7 @@ li {
     display: inline-block;
     margin: 0 auto;
     font-size: 1.5rem;
+    text-transform: uppercase;
 }
 
 .apply-btn a,
@@ -92,24 +93,51 @@ li {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                text-transform: uppercase;
+                // text-transform: uppercase;
                 padding-left: 0;
                 padding-right: 0;
+
+                p {
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                }
+
+                span {
+                    font-weight: 700;
+                }
             }
 
             .btn-col {
+                // background-image: url('/img/bg.jpg');
+                // background-repeat: no-repeat;
+                // background-position: center;
+                background: linear-gradient(rgba(182, 182, 182, 0.45), rgba(182, 182, 182, 1)), url("../img/bg.jpg");
+                background-position: center;
+                background-size: cover;
                 background-color: darkgrey;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                
+
                 a.apply-btn:hover {
                     color: #fff;
                 }
-
             }
         }
     }
+}
+
+
+h1 {
+    font-size: 3.25rem;
+}
+
+h2 {
+    font-size: 2.75rem;
+}
+
+p {
+    font-size: 1.25rem;
 }
 
 .site-name {
