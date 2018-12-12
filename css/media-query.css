@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 988px) {
     h1 {
         padding-top: 4rem;
         font-size: 2.5rem;
@@ -13,6 +13,9 @@
     }
 
     #one .container-fluid .row .btn-col {
+        background: -webkit-gradient(linear, left top, left bottom, from(rgba(182, 182, 182, 0.7)), to(rgba(182, 182, 182, 1))), url("../img/bg.jpg");
+        background: -webkit-linear-gradient(rgba(182, 182, 182, 0.7), rgba(182, 182, 182, 1)), url("../img/bg.jpg");
+        background: -o-linear-gradient(rgba(182, 182, 182, 0.7), rgba(182, 182, 182, 1)), url("../img/bg.jpg");
         background: linear-gradient(rgba(182, 182, 182, 0.7), rgba(182, 182, 182, 1)), url("../img/bg.jpg");
         background-position: center;
         background-size: cover;
@@ -39,6 +42,11 @@
         margin-top: 1rem !important;
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .btn-col p {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
