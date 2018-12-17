@@ -71,7 +71,7 @@
     }
 
     .apply-btn {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 }
 
@@ -85,10 +85,6 @@
     }
 
     h4 {
-        font-size: 1.25rem;
-    }
-
-    .apply-btn {
         font-size: 1.25rem;
     }
 }
