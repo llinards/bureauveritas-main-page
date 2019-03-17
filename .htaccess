@@ -1,0 +1,5 @@
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^www.bureauveritaslatvia.lv [NC]
+RewriteRule ^(.*)$ https://bureauveritaslatvia.lv/$1 [L,R=301]
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://bureauveritaslatvia.lv/$1 [R,L]
